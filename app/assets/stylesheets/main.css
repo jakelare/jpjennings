@@ -1,65 +1,3 @@
-/*.homepage {
-	
-	background-image:url("steelstacksbackground.jpg");
-	
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.contact_page {
-	background-image:url("Drive.jpg");
-	
-	background-repeat: no-repeat;
-	background-size: cover;
-
-}
-
-.logo {
-	width: 50%;
-	    border-bottom: 2px solid black;
-    padding: 0 96px 20px;
-
-}
-.links:hover {
-	text-decoration: none;
-}
-.nav-link {
-	padding-left: 40px !important;
-	padding-right: 40px !important;
-}
-
-a:hover {
-	text-decoration: none;
-}
-
-.icon {
-	width: 10%
-}
-
-.wrapper {
-	text-align: center;
-}
-.navigation {
-	margin-left: 30%;
-}
-
-.main-bar {
-	padding-top: 10px;
-}
-
-.link-list {
-	margin-left: 20%;
-}
-
-.links {
-	font-family: Roboto;
-	color: black;
-	font-size: 20px;
-	text-decoration: none;
-}*/
-
-
-
 
 .main-img {
     padding-top: 40px;
@@ -69,9 +7,55 @@ a:hover {
     max-height: 50px;
 }
 .top-page {
+	background-image: url('https://s-media-cache-ak0.pinimg.com/originals/1d/f7/81/1df78147c4a8f5f19867a1a0cd0ea3c1.gif');
     border-bottom: 5px;
     border-color: black;
+        background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 .main-section {
-    height: 500px;
+    min-height: 100vh;
+}
+
+.overlay {
+	position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 10;
+ background-color: rgba(0,0,0,0.1);
+}
+
+.top-layer {
+	z-index: 11;
+}
+
+.spacer {
+	height: 40vh;
+	width: 100%;
+}
+
+.main-page-link {
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:focus {
+	text-decoration: none;
+	color: white;
 }

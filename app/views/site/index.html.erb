@@ -1,14 +1,22 @@
-
-<div class="container-fluid">
+<div class="container-fluid top-layer">
     <div class="row">
-        <div class="col-xs-12 col-md-12 text-center">
+        <div class="col-xs-12 col-md-12 text-center top-page">
+            <div class="spacer"></div>
             <%= image_tag image_path('jpjenningslogo.png'), class: "img-responsive main-img center-block" %>
+            <div class="col-xs-3 main-page-link lead"><a href="#" onclick="handleMainPageLink('ABOUT')">About</a></div>
+            <div class="col-xs-3 main-page-link lead"><a href="#" onclick="handleMainPageLink('NEWS')">News</a></div>
+            <div class="col-xs-3 main-page-link lead"><a href="#" onclick="handleMainPageLink('SERVICES')">Services</a></div>
+            <div class="col-xs-3 main-page-link lead"><a href="#" onclick="handleMainPageLink('CONTACT')">Contact</a></div>
         </div>
+
         <hr>
     </div>
     <div class="row">
-        <div class="col-xs-12 text-center main-section">
-            aeljhrbaelrghbaeljrg
+        <div class="col-xs-12 text-center main-section" id="main-section">
+            <%= render :partial => "about" %>
+            <%= render :partial => "contact" %>
+            <%= render :partial => "news" %>
+            <%= render :partial => "services" %>
         </div>
     </div>
     <div class="row">
@@ -17,3 +25,17 @@
         </div>
     </div>
 </div>
+
+<script>
+    var handleMainPageLink = function(string) {
+        $('html, body').animate({scrollTop: $("#main-section").offset().top}, 1000);
+        switchPartial(string)
+    }
+    var switchPartial = function(string) {
+        $('.partial').hide();
+        $('#'+ string.toLowerCase() +'_partial').show();
+    }
+</script>   
+
+
+
