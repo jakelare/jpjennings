@@ -4,7 +4,7 @@
     max-height: 150px;
 }
 .bottom-img {
-    max-height: 50px;
+    max-height: 150px;
 }
 .top-page {
 	background-image: url('https://s-media-cache-ak0.pinimg.com/originals/1d/f7/81/1df78147c4a8f5f19867a1a0cd0ea3c1.gif');
@@ -26,6 +26,10 @@
  height: 100%;
  z-index: 10;
  background-color: rgba(0,0,0,0.1);
+}
+
+.text-wrapper {
+	margin-top: 3%;
 }
 
 .top-layer {
@@ -58,4 +62,9 @@ a:visited {
 a:focus {
 	text-decoration: none;
 	color: white;
+}
+
+.partial {
+	min-height: 80vh;
+
 }
