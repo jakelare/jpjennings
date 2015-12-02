@@ -1,0 +1,33 @@
+body {
+	
+	background-image:url("steelstacksbackground.jpg");
+	/*background-position: 100px 30px;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo {
+	width: 50%;
+	    border-bottom: 2px solid black;
+    padding: 0 96px 20px;
+
+}
+
+.icon {
+	width: 10%
+}
+
+.wrapper {
+	text-align: center;
+}
+.navigation {
+	margin-left: 30%;
+}
+
+
+.links {
+	font-family: Roboto;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
