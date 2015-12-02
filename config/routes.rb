@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :posts
-  root 'posts#index'
+  root 'site#index'
   devise_scope :user do 
     get '/signup' => "devise/registrations#new"
   end
