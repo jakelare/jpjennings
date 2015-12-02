@@ -1,9 +1,18 @@
-body {
+.homepage {
 	
 	background-image:url("steelstacksbackground.jpg");
 	/*background-position: 100px 30px;*/
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.contact_page {
+	background-image:url("Drive.jpg");
+	/*background-position: 100px 30px;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100vh;
 }
 
 .logo {
