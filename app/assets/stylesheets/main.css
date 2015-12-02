@@ -1,18 +1,17 @@
-.homepage {
+/*.homepage {
 	
 	background-image:url("steelstacksbackground.jpg");
-	/*background-position: 100px 30px;*/
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .contact_page {
 	background-image:url("Drive.jpg");
-	/*background-position: 100px 30px;*/
+	
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
-	width: 100vh;
+
 }
 
 .logo {
@@ -20,6 +19,17 @@
 	    border-bottom: 2px solid black;
     padding: 0 96px 20px;
 
+}
+.links:hover {
+	text-decoration: none;
+}
+.nav-link {
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 .icon {
@@ -33,10 +43,35 @@
 	margin-left: 30%;
 }
 
+.main-bar {
+	padding-top: 10px;
+}
+
+.link-list {
+	margin-left: 20%;
+}
 
 .links {
 	font-family: Roboto;
 	color: black;
 	font-size: 20px;
 	text-decoration: none;
+}*/
+
+
+
+
+.main-img {
+    padding-top: 40px;
+    max-height: 150px;
+}
+.bottom-img {
+    max-height: 50px;
+}
+.top-page {
+    border-bottom: 5px;
+    border-color: black;
+}
+.main-section {
+    height: 500px;
 }
