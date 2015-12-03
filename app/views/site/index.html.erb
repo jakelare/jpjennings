@@ -4,11 +4,11 @@
             <div class="spacer"></div>
             <%= image_tag image_path('jpjenningslogo.png'), class: "img-responsive main-img center-block" %>
             <div class="text-wrapper">
+                <hr class="line-break">
                 <div class="col-xs-2"></div>
-                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="handleMainPageLink('ABOUT')">About</a></div>
-                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="handleMainPageLink('NEWS')">News</a></div>
-                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="handleMainPageLink('SERVICES')">Services</a></div>
-                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="handleMainPageLink('CONTACT')">Contact</a></div>
+                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="handleMainPageLink('ABOUT')">ABOUT</a></div>
+                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="handleMainPageLink('SERVICES')">SERVICES</a></div>
+                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="handleMainPageLink('CONTACT')">CONTACT</a></div>
                 <div class="col-xs-2"></div>
             </div>
 
@@ -19,8 +19,7 @@
     <div class="row">
         <div class="col-xs-12 text-center main-section" id="main-section">
             <%= render :partial => "about" %>
-            <%= render :partial => "contact" %>
-            <%= render :partial => "news" %>
+            <%= render :partial => "contact" %> 
             <%= render :partial => "services" %>
               <div class="col-xs-12 col-md-12 text-center">
             <%= image_tag image_path('jpjenningsicon.png'), class: "img-responsive bottom-img center-block" %>

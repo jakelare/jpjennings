@@ -15,6 +15,11 @@
     min-height: 100vh;
 }
 .main-section {
+	background-image: url("sunbackground.jpg");
+	 border-bottom: 5px;
+    border-color: black;
+        background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -42,7 +47,16 @@
 }
 
 .main-page-link {
+	padding-left: 165px;
+	font-family: Arvo;
 	color: white;
+}
+.line-break {
+	    margin-top: -13px;
+    margin-bottom: 24px;
+    border: 0;
+    width: 75%;
+    border-top: 1px solid #eee;
 }
 
 a {
