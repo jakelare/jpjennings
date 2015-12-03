@@ -8,11 +8,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<p class="notice" style="display:none;"><%= notice %></p>
-<p class="alert" style="display:none;"><%= alert %></p>
+	<div class="wrapper">
+		<%= yield %>
+		<p class="notice" style="display:none;"><%= notice %></p>
+		<p class="alert" style="display:none;"><%= alert %></p>
+	</div>
 
 
-<%= yield %>
-
+	<footer class="footer-bar footer">
+	    <div class="col-sm-6">
+	        <%= image_tag image_path('jpjenningslogo.png'), class: "img-responsive contact-main-img" %>
+	    </div>
+	    <div class="col-sm-4 list-div">
+	        <ul>
+	            <li>Main Office</li>
+	            <li>(610) 849-2213</li>
+	            <li>FAX-(610) 750-9699</li>
+	            <li>715 Jennings Street, 2nd Floor</li>
+	            <li>Bethlehem, PA 18017</li>
+	        </ul>
+	    </div>
+   </footer>
 </body>
 </html>
