@@ -54,7 +54,7 @@
 }
 
 .main-page-link {
-	padding-left: 210px;
+	padding-left: 185px;
 	font-family: BrandonGrotesque-Bold;
 	color: white;
 }
@@ -148,6 +148,17 @@ margin: 0 auto -4em;
 .services-text {
 	font-family: BrandonGrotesque-Regular;
 	font-color: black;
-	font-size: 100px;
+	font-size: 70px;
 
+}
+
+.about-text {
+	font-family: BrandonGrotesque-Regular;
+	font-color: black;
+	font-size: 70px;
+}
+.contact-text {
+	font-family: BrandonGrotesque-Regular;
+	font-color: black;
+	font-size: 70px;
 }
