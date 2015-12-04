@@ -7,7 +7,7 @@
 .top-image {
 	position: absolute;
 	right: 20px;
-	bottom: -228px;
+	bottom: -260px;
 	max-height: 75px;
 	max-width: 75px;
 }
@@ -23,7 +23,7 @@
     min-height: 100vh;
 }
 .main-section {
-	background-image: url("");
+	background-image: url("sunbackground.jpg");
 	 border-bottom: 5px;
     border-color: black;
         background-repeat: no-repeat;
@@ -89,7 +89,7 @@ a:focus {
 }
 
 .partial {
-	min-height: 80vh;
+	min-height: 20vh;
 
 }
 
@@ -102,7 +102,7 @@ a:focus {
 .contact-icon-img {
 	position: absolute;
 	right: 55px;
-	bottom: -225px;
+	bottom: -1000px;
 	max-height: 110px;
 	max-width: 110px;
 }
@@ -163,4 +163,16 @@ margin: 0 auto -4em;
 	font-family: BrandonGrotesque-Regular;
 	font-color: black;
 	font-size: 70px;
+}
+
+.about-img {
+	padding-top: 28px;
+    max-height: 100px;
+    margin-top: 7px;
+}
+
+.about-info {
+	font-family: BrandonGrotesque-Regular;
+	font-size: 24px;
+	color: #333;
 }
