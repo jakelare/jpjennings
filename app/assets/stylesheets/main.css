@@ -2,13 +2,14 @@
 .main-img {
     padding-top: 40px;
     max-height: 150px;
+    margin-top: -75px;
 }
 .top-image {
 	position: absolute;
 	right: 20px;
-	bottom: -100px;
-	max-height: 110px;
-	max-width: 110px;
+	bottom: -228px;
+	max-height: 75px;
+	max-width: 75px;
 }
 .bottom-img {
     max-height: 50px;
@@ -54,16 +55,17 @@
 }
 
 .main-page-link {
-	padding-left: 185px;
-	font-family: BrandonGrotesque-Bold;
+	padding-left: 172px;
+	font-family: BrandonGrotesque-Regular;
 	color: white;
 }
 .line-break {
 	margin-top: -13px;
     margin-bottom: 24px;
-    margin-right: 50%;
+    /*margin-right: 50%;*/
+    margin-left: 25%;
     border: 0;
-    width: 75%;
+    width: 50%;
     border-top: 1px solid #eee;
 }
 
