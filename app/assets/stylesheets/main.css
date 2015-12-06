@@ -23,7 +23,6 @@
     min-height: 100vh;
 }
 .main-section {
-	background-image: url("sunbackground.jpg");
 	 border-bottom: 5px;
     border-color: black;
         background-repeat: no-repeat;
@@ -31,6 +30,28 @@
     min-height: 100vh;
 }
 
+.main-section-about {
+	 border-bottom: 5px;
+    border-color: black;
+        background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.main-section-services {
+	border-bottom: 5px;
+    border-color: black;
+        background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.main-section-contact {
+	border-bottom: 5px;
+    border-color: black;
+        background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
 .overlay {
 	position: absolute;
  top: 0;
@@ -97,19 +118,20 @@ a:focus {
 	padding-left: 10%;
 	padding-top: 70px;
     max-height: 125px;
+    margin-top: 35px;
 }
 
 .contact-icon-img {
 	position: absolute;
 	right: 55px;
-	bottom: -1000px;
+	bottom: -2600px;
 	max-height: 110px;
 	max-width: 110px;
 }
 .list-div {
 	font-family: BrandonGrotesque-Regular;
 	font-size: 20px;
-	bottom: -100px;
+	bottom: -125px;
 	color: white;
 }
 /*
@@ -144,6 +166,7 @@ margin: 0 auto -4em;
 	background-color: #222;
 	padding: 5px 0px;	
 	height: 40vh;
+	width: 100%;
 	clear: both;
 }
 
@@ -168,11 +191,28 @@ margin: 0 auto -4em;
 .about-img {
 	padding-top: 28px;
     max-height: 100px;
-    margin-top: 7px;
+    margin-top: 20px;
 }
 
 .about-info {
 	font-family: BrandonGrotesque-Regular;
-	font-size: 24px;
+	font-size: 25px;
 	color: #333;
+	padding-top:40px;
+}
+
+#about-section {
+	background-image: url("dicebackground.jpg");
+}
+
+#services-section {
+	background-image: url("lightsbackground.png");
+}
+
+#contact-section {
+	background-image: url("railroad.jpg");
+}
+
+.services-video {
+	margin-top: 271px;
 }

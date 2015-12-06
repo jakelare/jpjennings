@@ -8,9 +8,9 @@
             <div class="text-wrapper">
                 <hr class="line-break">
                 <div class="col-xs-2"></div>
-                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="handleMainPageLink('ABOUT')">ABOUT</a></div>
-                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="handleMainPageLink('SERVICES')">SERVICES</a></div>
-                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="handleMainPageLink('CONTACT')">CONTACT</a></div>
+                <div class="col-xs-2 main-page-link lead"><a href="#about-section" onclick="handleMainPageLink('ABOUT')">ABOUT</a></div>
+                <div class="col-xs-2 main-page-link lead"><a href="#services-section" onclick="handleMainPageLink('SERVICES')">SERVICES</a></div>
+                <div class="col-xs-2 main-page-link lead"><a href="#contact-section" onclick="handleMainPageLink('CONTACT')">CONTACT</a></div>
                 <div class="col-xs-2"></div>
             </div>
              <%= image_tag image_path('whiteicon.png'), class: "img-responsive top-image" %>
@@ -18,32 +18,25 @@
 
     </div>
     <div class="row">
-        <div class="col-xs-12 text-center main-section" id="main-section">
+        <div class="col-xs-12 text-center main-section-about" id="about-section">
             <%= render :partial => "about" %>
-            <%= render :partial => "contact" %> 
-            <%= render :partial => "services" %>
-              <div class="col-xs-12 col-md-12 text-center">
-                 
-        </div>
         </div>
        
     </div>
     <div class="row">
+        <div class="col-xs-12 text-center main-section-services" id="services-section">
+            <%= render :partial => "services" %> 
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center main-section-contact" id="contact-section">
+            <%= render :partial => "contact" %> 
+        </div>
+    </div>
         
     </div>
 </div>
-
-<script>
-    var handleMainPageLink = function(string) {
-        $('html, body').animate({scrollTop: $("#main-section").offset().top}, 1000);
-        switchPartial(string)
-    }
-    var switchPartial = function(string) {
-        $('.partial').hide();
-        $('#'+ string.toLowerCase() +'_partial').show();
-    }
-</script>   
-
 
 
 
