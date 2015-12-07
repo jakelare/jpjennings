@@ -17,6 +17,21 @@
 .navbar {
 	display: none;
 	background-image: url("darkbluebackground.jpg"); 
+	height: 10vh;
+}
+
+.bar-img {
+	padding-right: 70%;
+    max-height: 30px;
+    margin-top: 20px;
+}
+
+.bar-icon-img {
+	position: absolute;
+	margin-left: 95%;
+	max-height: 48px;
+	max-width: 48px;
+	margin-top: -36px;
 }
 
 .top-page {
@@ -129,7 +144,7 @@ a:focus {
 .contact-icon-img {
 	position: absolute;
 	right: 55px;
-	bottom: -2600px;
+	bottom: -2650px;
 	max-height: 110px;
 	max-width: 110px;
 }
@@ -202,12 +217,12 @@ margin: 0 auto -4em;
 .about-info {
 	font-family: BrandonGrotesque-Regular;
 	font-size: 25px;
-	color: #F5F5F5;
+	color: #333;
 	padding-top:40px;
 }
 
 #about-section {
-	background-image: url("bluebackground.png");
+	background-image: url("sunbackground.jpg");
 }
 
 #services-section {
