@@ -14,6 +14,11 @@
 .bottom-img {
     max-height: 50px;
 }
+.navbar {
+	display: none;
+	background-image: url("darkbluebackground.jpg"); 
+}
+
 .top-page {
 	background-image: url('https://s-media-cache-ak0.pinimg.com/originals/1d/f7/81/1df78147c4a8f5f19867a1a0cd0ea3c1.gif');
     border-bottom: 5px;
@@ -197,12 +202,12 @@ margin: 0 auto -4em;
 .about-info {
 	font-family: BrandonGrotesque-Regular;
 	font-size: 25px;
-	color: #333;
+	color: #F5F5F5;
 	padding-top:40px;
 }
 
 #about-section {
-	background-image: url("dicebackground.jpg");
+	background-image: url("bluebackground.png");
 }
 
 #services-section {
