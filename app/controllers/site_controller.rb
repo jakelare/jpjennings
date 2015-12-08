@@ -11,4 +11,7 @@ class SiteController < ApplicationController
 	def signup
 		render("signup")
 	end
+	def directions
+		render("directions")
+	end
 end

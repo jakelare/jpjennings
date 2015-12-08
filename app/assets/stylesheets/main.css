@@ -248,6 +248,16 @@ margin: 0 auto -4em;
 	margin-top: 271px;
 }
 
+.carousel-div {
+	font-family: BrandonGrotesque-Regular;
+	font-size: 40px;
+	margin-top: 88px;
+}
+
+.slick-next {
+	font-color: #333;
+}
+
 .contact-wrapper {
 	padding-top: 54px;
 }

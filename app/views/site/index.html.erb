@@ -30,10 +30,10 @@
             </div>
             <div class="col-sm-6 carousel-div">
                 <div class="one-time">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
+                    <div>Hello</div>
+                    <div>You</div>
+                    <div>Are</div>
+                    <div>Stupid</div>
                 </div>
             </div>
             <div class="col-sm-3">
@@ -46,15 +46,15 @@
             <%= render :partial => "contact" %> 
             <div class="form-style-2">
 <div class="contact-wrapper">
-    <div class="form-style-2-heading">PROVIDE YOUR INFORMATION</div>
-    <form action="" method="post">
-        <label for="field1">
+    <div class="form-style-2-heading">CONTACT US</div>
+    <form action="/contact" method="post">
+        <label for="name">
             <span>Name <span class="required">*</span></span>
-            <input type="text" class="input-field" name="field1" value="" />
+            <input type="text" class="input-field" name="name" value="" />
         </label>
-        <label for="field2">
+        <label for="email">
             <span>Email <span class="required">*</span></span>
-            <input type="text" class="input-field" name="field2" value="" />
+            <input type="text" class="input-field" name="email" value="" />
         </label>
         <label>
             <span>Telephone</span>
@@ -63,17 +63,17 @@
             -<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  />
         </label>
 
-        <label for="field4">
+        <label for="regarding">
             <span>Regarding</span>
-            <select name="field4" class="select-field">
+            <select name="regarding" class="select-field">
                 <option value="General Question">General</option>
                 <option value="Advertise">Advertisement</option>
                 <option value="Partnership">Partnership</option>
             </select>
         </label>
-        <label for="field5">
+        <label for="message">
             <span>Message <span class="required">*</span></span>
-            <textarea name="field5" class="textarea-field"></textarea>
+            <textarea name="message" class="textarea-field"></textarea>
         </label>
         <label>
             <span>&nbsp;</span>
