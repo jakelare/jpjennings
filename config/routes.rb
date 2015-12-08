@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/about' => 'site#about'
   get '/services' => 'site#services'
   get '/contact' => 'site#contact'
+  get '/directions' => 'site#directions'
 end
 
   # The priority is based upon order of creation: first created -> highest priority.
