@@ -84,7 +84,13 @@
     background-size: cover;
     min-height: 100vh;
 }
-
+.services-img {
+	padding-top: 28px;
+	max-height: 200px;
+    min-height: 100px;
+    margin-top: 195px;
+    margin-right: 50px;
+}
 .main-section-contact {
 	border-bottom: 5px;
     border-color: black;
@@ -164,7 +170,7 @@ a:focus {
 .contact-icon-img {
 	position: absolute;
 	right: 55px;
-	bottom: -2650px;
+	bottom: -2950px;
 	max-height: 110px;
 	max-width: 110px;
 }
@@ -356,10 +362,16 @@ margin: 0 auto -4em;
     background: #EA7B00;
     color: #fff;
 }
+
+.news-header {
+	font-family: BrandonGrotesque-Regular;
+	font-size: 50px;
+	margin-right: 280px;
+}
 .item {
 	font-family: BrandonGrotesque-Regular;
-	font-size: 40px;
-	margin-top: 85px;
+	font-size: 20px;
+	margin-top: 155px;
 
 }
 
