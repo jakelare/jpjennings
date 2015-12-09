@@ -343,4 +343,14 @@ margin: 0 auto -4em;
     background: #EA7B00;
     color: #fff;
 }
-</style>
+.item {
+	font-family: BrandonGrotesque-Regular;
+	font-size: 40px;
+	margin-top: 85px;
+
+}
+
+.arrows {
+	font-size: 62px;
+    margin-top: 65px;
+}

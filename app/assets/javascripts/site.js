@@ -5,7 +5,7 @@ $(document).ready(function(){
     var elem = $('.navbar');
     $(window).scroll(function(){
         if ($(window).scrollTop() > 300){
-            elem.fadeIn(500);
+            elem.fadeIn(750);
 
         } else if ($(window).scrollTop() < 300){
             elem.hide();
