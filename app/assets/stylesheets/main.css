@@ -84,13 +84,9 @@
     background-size: cover;
     min-height: 100vh;
 }
-.services-img {
-	padding-top: 28px;
-	max-height: 200px;
-    min-height: 100px;
-    margin-top: 195px;
-    margin-right: 50px;
-}
+
+
+
 .main-section-contact {
 	border-bottom: 5px;
     border-color: black;
@@ -366,16 +362,53 @@ margin: 0 auto -4em;
 .news-header {
 	font-family: BrandonGrotesque-Regular;
 	font-size: 50px;
-	margin-right: 280px;
 }
 .item {
 	font-family: BrandonGrotesque-Regular;
-	font-size: 20px;
-	margin-top: 155px;
+	font-size: 30px;
+	margin-top: 53px;
 
 }
 
 .arrows {
 	font-size: 62px;
     margin-top: 65px;
+}
+
+.carousel-inner {
+	height:200px;
+}
+
+.services-options {
+	font-family: BrandonGrotesque-Regular;
+	font-size: 80px;
+	margin-right: 950px;
+}
+.services-options-list {
+	font-family: BrandonGrotesque-Regular;
+	font-size: 25px;
+}
+
+.news-top {
+	    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #080808;
+}
+
+.news-bottom {
+	    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #080808;
+}
+
+.birds-img {
+		position: absolute;
+		top: 56px;
+		right: 18px;
+}
+
+#services_partial {
+	height: 700px;
 }
