@@ -8,7 +8,13 @@ $(document).ready(function(){
             elem.fadeIn(750);
 
         } else if ($(window).scrollTop() < 300){
-            elem.hide();
+            elem.fadeOut(750);
         }
     });
 });
+var scrollFunction = function(id) {
+		   $('html, body').animate({
+		       scrollTop: $("#" + id).offset($(".navbar").css("height")).top
+		   }, 2000);
+		   event.preventDefault()
+		}
