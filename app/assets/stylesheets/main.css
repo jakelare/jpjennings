@@ -69,6 +69,14 @@
     min-height: 100vh;
 }
 
+.main-section-why {
+	 border-bottom: 5px;
+    border-color: black;
+        background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
 .main-section-news {
 	 border-bottom: 5px;
     border-color: black;
@@ -236,6 +244,13 @@ margin: 0 auto -4em;
     margin-top: 20px;
 }
 
+.learn-more-img {
+	position: absolute;
+    top: 357px;
+    right: 375px;
+    max-height: 40px;
+}
+
 .about-info {
 	font-family: BrandonGrotesque-Regular;
 	font-size: 25px;
@@ -247,6 +262,9 @@ margin: 0 auto -4em;
 	background-image: url("sunbackground.jpg");
 }
 
+#why-section {
+	background-image: url("treebackground.jpg")
+}
 #news-section {
 	background-image: url("newsbackground.jpg") 
 }
@@ -410,5 +428,9 @@ margin: 0 auto -4em;
 }
 
 #services_partial {
+	height: 700px;
+}
+
+#about_partial {
 	height: 700px;
 }

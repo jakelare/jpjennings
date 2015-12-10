@@ -2,6 +2,9 @@ class SiteController < ApplicationController
 	def about
 		render("about")
 	end
+	def why
+		render("why")
+	end
 	def news
 		render("news")
 	end

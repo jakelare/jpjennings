@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     get '/signup' => "devise/registrations#new"
   end
   get '/about' => 'site#about'
+  get '/why' => 'site#why'
   get '/news' => 'site#news'
   get '/services' => 'site#services'
   get '/contact' => 'site#contact'
