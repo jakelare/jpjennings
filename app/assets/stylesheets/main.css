@@ -248,7 +248,7 @@ margin: 0 auto -4em;
 	position: absolute;
     top: 357px;
     right: 375px;
-    max-height: 40px;
+    max-height: 50px;
 }
 
 .about-info {
@@ -419,6 +419,20 @@ margin: 0 auto -4em;
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid #080808;
+}
+
+.why-icon-img {
+	position: absolute;
+    top: 0px;
+    right: 230px;
+    max-height: 170px;
+}
+
+.why-heading {
+	font-family: BrandonGrotesque-Regular;
+	font-size: 50px;
+	padding-left: 649px;
+    padding-top: 149px;
 }
 
 .birds-img {
