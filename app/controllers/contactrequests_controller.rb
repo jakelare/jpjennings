@@ -8,6 +8,7 @@ class ContactrequestsController < ApplicationController
 		request.telephone = (params[:tel_no_1] + params[:tel_no_2] + params[:tel_no_3])
 		if (request.save)
 			p "success" 
+			NewMailer.welcome_email(params[:email]).deliver_later
 			redirect_to(root_path)
 		else
 			p "failure"

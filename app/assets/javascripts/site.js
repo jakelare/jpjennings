@@ -13,8 +13,8 @@ $(document).ready(function(){
     });
 });
 var scrollFunction = function(id) {
+	console.log("Scrolling to: " + id)
 		   $('html, body').animate({
-		       scrollTop: $("#" + id).offset($(".navbar").css("height")).top
-		   }, 2000);
-		   event.preventDefault()
+		       scrollTop: $("#" + id).offset().top - $(".navbar").height()
+		   }, 1000);
 		}

@@ -174,7 +174,7 @@ a:focus {
 .contact-icon-img {
 	position: absolute;
 	right: 55px;
-	bottom: -3000px;
+	bottom: -3800px;
 	max-height: 110px;
 	max-width: 110px;
 }
@@ -394,7 +394,7 @@ margin: 0 auto -4em;
 }
 
 .carousel-inner {
-	height:200px;
+	height:250px;
 }
 
 .services-options {
@@ -447,4 +447,10 @@ margin: 0 auto -4em;
 
 #about_partial {
 	height: 700px;
+}
+
+.why-paragraph {
+	font-family: BrandonGrotesque-Regular;
+	font-size: 27px;
+    padding-left: 640px;
 }
