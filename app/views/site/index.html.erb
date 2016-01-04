@@ -6,13 +6,13 @@
             <hr class="landing-page-line">
             <div class="text-wrapper">
                 <div class="col-xs-2"></div>
-                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('ABOUT')">about</a></div>
-                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('SERVICES')">services</a></div>
-                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('CLIENTS')">clients</a></div>
-                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('CONTACT')">contact</a></div>
+                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('about')">about</a></div>
+                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('services')">services</a></div>
+                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('clients')">clients</a></div>
+                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('contact')">contact</a></div>
                 <div class="col-xs-2"></div>
             </div>
-
+                 <%= image_tag image_path('whiteicon.png'), class: "img-responsive landing-page-icon" %>
         </div>
 
         <hr>
@@ -22,10 +22,22 @@
             <%= render :partial => "about" %>
         </div>
     </div>
+    <div class="row">
+        <div class="col-xs-12 text-center services-section" id="main-section">
             <%= render :partial => "services" %>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center clients-section" id="main-section">
             <%= render :partial => "clients" %>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center-section" id="main-section">
             <%= render :partial => "contact" %>
-              <div class="col-xs-12 col-md-12 text-center">
+            <div class="col-sm-3">
+        </div>
+    </div>
             
         </div>
         </div>

@@ -15,9 +15,7 @@
     background-size: cover;
     min-height: 100vh;
 }
-.main-section {
-    min-height: 100vh;
-}
+
 
 .main-page-links {
 	padding-left: 0px;
@@ -31,12 +29,24 @@
 	width: 786px;
 }
 
+.landing-page-icon {
+	height: 60px;
+    padding-left: 1304px;
+    margin-top: 328px;
+
+}
 .about-section {
 	height: 0vh;
 }
 
+.services-section {
+	height: 0vh;
+}
+
 .chrisandtyler-img {
-	height: 300px;
+	height: 810px;
+    padding-right: 711px;
+    margin-right: 105px;
 }
 
 .overlay {
@@ -90,7 +100,18 @@ a:focus {
 	color: white;
 }
 
-.about-partial {
-	min-height: 10vh;
+#about_partial {
+	min-height: 100vh;
+}
 
+#services_partial {
+	min-height: 100vh;
+}
+
+#clients_partial {
+	min-height: 100vh;
+}
+
+#contact_partial {
+	min-height: 100vh;
 }
