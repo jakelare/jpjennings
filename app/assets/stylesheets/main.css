@@ -2,6 +2,7 @@
 .main-img {
     padding-top: 40px;
     max-height: 150px;
+    margin-top: -117px;
 }
 .bottom-img {
     max-height: 150px;
@@ -16,6 +17,26 @@
 }
 .main-section {
     min-height: 100vh;
+}
+
+.main-page-links {
+	padding-left: 0px;
+    font-family: BrandonGrotesque-Light;
+    color: white;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.landing-page-line {
+	width: 786px;
+}
+
+.about-section {
+	height: 0vh;
+}
+
+.chrisandtyler-img {
+	height: 300px;
 }
 
 .overlay {
@@ -34,6 +55,11 @@
 
 .top-layer {
 	z-index: 11;
+}
+
+.services-heading {
+	font-family: BrandonGrotesque-Regular;
+    color: #000000;
 }
 
 .spacer {
@@ -64,7 +90,7 @@ a:focus {
 	color: white;
 }
 
-.partial {
-	min-height: 80vh;
+.about-partial {
+	min-height: 10vh;
 
 }

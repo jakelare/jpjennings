@@ -4,10 +4,9 @@ Rails.application.routes.draw do
   devise_scope :user do 
     get '/signup' => "devise/registrations#new"
   end
-  get '/welcome' => 'site#welcome'
   get '/about' => 'site#about'
   get '/services' => 'site#services'
-  get '/news' => 'site#news'
+  get '/clients'  => 'site#clients'
   get '/contact' => 'site#contact'
 end
 
