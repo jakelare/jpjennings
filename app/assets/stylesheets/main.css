@@ -2,14 +2,14 @@
 .main-img {
     padding-top: 40px;
     max-height: 150px;
-    margin-top: -75px;
+    margin-top: -130px;
 }
 .top-image {
 	position: absolute;
-	right: 20px;
-	bottom: -260px;
-	max-height: 75px;
-	max-width: 75px;
+    right: 35px;
+    bottom: -300px;
+    max-height: 75px;
+    max-width: 75px;
 }
 .bottom-img {
     max-height: 50px;
@@ -35,7 +35,7 @@
 }
 
 .bar-page-link {
-	padding-left: 302px;
+	padding-left: 212px;
 	font-family: BrandonGrotesque-Regular;
 	color: white;
 	font-size: 14px;
@@ -126,9 +126,9 @@
 }
 
 .main-page-link {
-	padding-left: 172px;
-	font-family: BrandonGrotesque-Regular;
+	font-family: BrandonGrotesque-Light;
 	color: white;
+	font-size: 30px;
 }
 .line-break {
 	margin-top: -13px;
