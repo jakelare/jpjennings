@@ -6,10 +6,11 @@
 }
 .top-image {
 	position: absolute;
-    right: 35px;
-    bottom: -300px;
-    max-height: 75px;
-    max-width: 75px;
+    right: 18px;
+    bottom: -268px;
+	max-height: 75px;
+	max-width: 75px;
+
 }
 .bottom-img {
     max-height: 50px;
@@ -129,6 +130,7 @@
 	font-family: BrandonGrotesque-Light;
 	color: white;
 	font-size: 30px;
+	padding-left: -23px;
 }
 .line-break {
 	margin-top: -13px;
