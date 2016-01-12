@@ -5,9 +5,20 @@ Rails.application.routes.draw do
     get '/signup' => "devise/registrations#new"
   end
   get '/about' => 'site#about'
+<<<<<<< HEAD
   get '/services' => 'site#services'
   get '/clients'  => 'site#clients'
+=======
+  get '/why' => 'site#why'
+  get '/news' => 'site#news'
+  get '/services' => 'site#services'
+>>>>>>> 9cab43e7eef08e1e897919eacdefd7a04f85ee93
   get '/contact' => 'site#contact'
+  get '/directions' => 'site#directions'
+  # post sections
+
+  
+  post '/contact' => 'contactrequests#new'
 end
 
   # The priority is based upon order of creation: first created -> highest priority.
