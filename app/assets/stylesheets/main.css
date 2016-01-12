@@ -137,8 +137,8 @@ a:focus {
 	font-family: BrandonGrotesque-Light;
     color: #000000;
     font-size: 25px;
-    padding-left: 762px;
-    margin-top: -560px;
+    padding-left: 683px;
+    margin-top: -593px;
 
 }
 
@@ -197,7 +197,7 @@ a:focus {
 
 .contact-line-bottom {
     width: 85%;
-    margin-top: 467px;
+    margin-top: 310px;
     border: 0;
     border-top: 3px solid #000000;
 }
@@ -211,6 +211,10 @@ a:focus {
 }
 
 .clients-bottom-info {
+    font-family: BrandonGrotesque-Regular;
+}
+
+.contact-bottom-info {
     font-family: BrandonGrotesque-Regular;
 }
 
@@ -235,6 +239,11 @@ a:focus {
     color: #000000;
     font-size: 20px;
     padding-top: 120px;
+}
+
+.contact-info {
+    font-size: 21px;
+    margin-top: 250px;
 }
 
 .birds-img {
