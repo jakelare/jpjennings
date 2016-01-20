@@ -1,11 +1,15 @@
 <div class="container-fluid top-layer">
     <div class="row">
         <div class="col-xs-12 col-md-12 text-center top-page">
-            <div class="spacer"></div>
+         <div class="spacer"></div>
+         <div class="col-xs-12 col-md-12 text-center">
+           
             <%= image_tag image_path('jpjenningslogo.png'), class: "img-responsive main-img center-block" %>
             <hr class="landing-page-line">
             <div class="text-wrapper">
+                <hr class="line-break">
                 <div class="col-xs-2"></div>
+<<<<<<< HEAD
                 <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('about')">about</a></div>
                 <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('services')">services</a></div>
                 <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('clients')">clients</a></div>
@@ -14,11 +18,10 @@
             </div>
                  <%= image_tag image_path('whiteicon.png'), class: "img-responsive landing-page-icon" %>
         </div>
-
         <hr>
     </div>
     <div class="row">
-        
+            
             <%= render :partial => "about" %>
         </div> 
     </div>
@@ -39,25 +42,149 @@
         </div>
     </div>
             
+=======
+                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="scrollFunction('about-section')">about</a></div>
+                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="scrollFunction('services-section')">services</a></div>
+                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="scrollFunction('news-section')">news</a></div>
+                <div class="col-xs-2 main-page-link lead"><a href="#" onclick="scrollFunction('contact-section')">contact</a></div>
+                <div class="col-xs-2"></div>
+            </div>
+             <%= image_tag image_path('whiteicon.png'), class: "img-responsive top-image" %>
         </div>
+
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center main-section-about" id="about-section">
+            <%= render :partial => "about" %>
+>>>>>>> 9cab43e7eef08e1e897919eacdefd7a04f85ee93
         </div>
        
     </div>
     <div class="row">
+        <div class="col-xs-12 text-center main-section-why" id="why-section">
+            <%= render :partial => "why" %>
+        </div>
+       
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center main-section-news" id="news-section">
+            <%= render :partial => "news" %>
+            <center><h1 class="news-header">NEWS</h1></center>
+            <hr class="news-top">
+             <div class="col-sm-3">
+            </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <strong>J . P . Jennings launches online marketing campaign with Google!</strong><br>
+                    At the beginning of 2016, J . P . Jennings will launch an online<br>
+                    marketing campaign with Google in an effort to bring their search<br>
+                    engine to Mars.
+                </div>
+
+                <div class="item">
+                    <strong>J . P . Jennings starts branding campaign with Nike!</strong><br>
+                    At the beginning of 2016, J . P . Jennings will begin a branding<br>
+                    campaign with the infamous Nike apparel sports line!
+                </div>
+
+                <div class="item">
+                    <strong>J . P . Jennings creates new webpage for Apple!</strong><br>
+                    At the beginning of 2016, J . P . Jennings will begin creating<br>
+                    a new website for Apple Inc.
+                </div>
+
+                <div class="item">
+                    <strong>J . P . Jennings helps Adam Levine straighten out online rumor!</strong><br>
+                     J . P . Jennings have helped Adam Levine straighten out the dating rumors<br> that surfaced recently between him and Lindsey Lohan.
+                </div>
+                <div class="item">
+                    <strong>J . P . Jennings to begin working with Yahoo!</strong><br>
+                    At the beginning of 2016, J . P . Jennings will begin working on<br>
+                    a new internet venture with Yahoo.
+                </div>
+                <div class="item">
+                    <strong>J . P . Jennings helps Myspace come back from the dead!</strong><br>
+                    At the beginning of 2015, J . P . Jennings set out to bring Myspace<br>
+                    back from the dead. The site is now back to the popularity it was at<br>
+                    in 2006! Wow!
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <i class="arrows fa fa-arrow-left"></i>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <i class="arrows fa fa-arrow-right"></i>
+
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            
+            <div class="col-sm-3">
+            </div>
+            <hr class="news-bottom">
+        </div>
+       
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center main-section-services" id="services-section">
+            <%= render :partial => "services" %> 
+           
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center main-section-contact" id="contact-section">
+            <%= render :partial => "contact" %> 
+            <div class="form-style-2">
+<div class="contact-wrapper">
+    <div class="form-style-2-heading">CONTACT US</div>
+    <form action="/contact" method="post">
+        <label for="name">
+            <span>Name <span class="required">*</span></span>
+            <input type="text" class="input-field" name="name" value="" />
+        </label>
+        <label for="email">
+            <span>Email <span class="required">*</span></span>
+            <input type="text" class="input-field" name="email" value="" />
+        </label>
+        <label>
+            <span>Telephone</span>
+            <input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />
+            -<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />
+            -<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  />
+        </label>
+
+        <label for="regarding">
+            <span>Regarding</span>
+            <select name="regarding" class="select-field">
+                <option value="General Question">General</option>
+                <option value="Advertise">Advertisement</option>
+                <option value="Partnership">Partnership</option>
+            </select>
+        </label>
+        <label for="message">
+            <span>Message <span class="required">*</span></span>
+            <textarea name="message" class="textarea-field"></textarea>
+        </label>
+        <label>
+            <span>&nbsp;</span>
+            <input type="submit" value="Submit" />
+        </label>
+    </form>
+</div> <!-- /.contact-wrapper -->
+</div>
+        </div>
+    </div>
         
     </div>
 </div>
 
-<script>
-    var handleMainPageLink = function(string) {
-        $('html, body').animate({scrollTop: $("#main-section").offset().top}, 1000);
-        switchPartial(string)
-    }
-    var switchPartial = function(string) {
-        $('.partial').hide();
-        $('#'+ string.toLowerCase() +'_partial').show();
-    }
-</script>   
 
 
 

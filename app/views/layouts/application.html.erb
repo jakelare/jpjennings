@@ -6,13 +6,63 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="/assets/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="/assets/slick-theme.css"/>
 </head>
 <body>
-<p class="notice" style="display:none;"><%= notice %></p>
-<p class="alert" style="display:none;"><%= alert %></p>
+	<div class="wrapper">
+		<%= yield %>
+		<p class="notice" style="display:none;"><%= notice %></p>
+		<p class="alert" style="display:none;"><%= alert %></p>
+	</div>
 
 
-<%= yield %>
-
+	<footer class="footer-bar footer">
+	    <div class="col-sm-6">
+	        <a href="#" onclick="scrollFunction('top-image')"><%= image_tag image_path('jpjenningslogo.png'), class: "img-responsive contact-main-img" %>
+	    </div>
+	    <div class="col-sm-4 list-div">
+	        <ul>
+	            <li>Main Office</li>
+	            <li>(610) 849-2213</li>
+	            <li>FAX-(610) 750-9699</li>
+	            <li>715 Jennings Street, 2nd Floor</li>
+	            <li>Bethlehem, PA 18017</li>
+	            <a href="https://www.google.com/maps/dir//Jennings+St,+Bethlehem,+PA+18017/@40.6338881,-75.3687135,15z"><li>Get Directions</li></a>
+	        </ul>
+	    </div>
+	    <div>
+	    	<a href="/"><%= image_tag image_path('whiteicon.png'), class: "img-responsive contact-icon-img" %></a>
+	    </div>
+   </footer>
+   <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="bar-container">
+    <%= image_tag image_path('jpjenningslogo.png'), class: "img-responsive bar-img center-block" %>
+  </div>
+   <div class="bar-text-wrapper">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-2 bar-page-link lead"><a href="#" onclick="scrollFunction('about-section')">ABOUT</a></div>
+                <div class="col-xs-2 bar-page-link lead"><a href="#" onclick="scrollFunction('services-section')">SERVICES</a></div>
+                <div class="col-xs-2 bar-page-link lead"><a href="#" onclick="scrollFunction('news-section')">NEWS</a></div>
+                <div class="col-xs-2 bar-page-link lead"><a href="#" onclick="scrollFunction('contact-section')">CONTACT</a></div>
+                <div class="col-xs-2"></div>
+            </div>
+  <div>
+	    	<a href="/"><%= image_tag image_path('whiteicon.png'), class: "img-responsive bar-icon-img" %></a>
+	    </div>
+</nav>
+	<script type="text/javascript" src="/assets/slick.min.js"></script>
+	<script type="text/javascript">
+		$('.one-time').slick({
+		  arrows: true,
+		  infinite: true,
+		  boolean: false,
+		  nextArrow: '<button type="button" class="slick-next">Next</button>',
+		  speed: 300,
+		  slidesToShow: 1,
+		  adaptiveHeight: true
+		});
+	</script>
 </body>
 </html>
