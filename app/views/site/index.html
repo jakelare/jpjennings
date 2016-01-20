@@ -1,0 +1,63 @@
+<div class="container-fluid top-layer">
+    <div class="row">
+        <div class="col-xs-12 col-md-12 text-center top-page">
+            <div class="spacer"></div>
+            <%= image_tag image_path('jpjenningslogo.png'), class: "img-responsive main-img center-block" %>
+            <hr class="landing-page-line">
+            <div class="text-wrapper">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('about')">about</a></div>
+                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('services')">services</a></div>
+                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('clients')">clients</a></div>
+                <div class="col-xs-2 main-page-links lead"><a href="#" onclick="handleMainPageLink('contact')">contact</a></div>
+                <div class="col-xs-2"></div>
+            </div>
+                 <%= image_tag image_path('whiteicon.png'), class: "img-responsive landing-page-icon" %>
+        </div>
+
+        <hr>
+    </div>
+    <div class="row">
+        
+            <%= render :partial => "about" %>
+        </div> 
+    </div>
+    <div class="row">
+        
+            <%= render :partial => "services" %>
+        </div>
+    </div>
+    <div class="row">
+        
+            <%= render :partial => "clients" %>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center-section" id="main-section">
+            <%= render :partial => "contact" %>
+            <div class="col-sm-3">
+        </div>
+    </div>
+            
+        </div>
+        </div>
+       
+    </div>
+    <div class="row">
+        
+    </div>
+</div>
+
+<script>
+    var handleMainPageLink = function(string) {
+        $('html, body').animate({scrollTop: $("#main-section").offset().top}, 1000);
+        switchPartial(string)
+    }
+    var switchPartial = function(string) {
+        $('.partial').hide();
+        $('#'+ string.toLowerCase() +'_partial').show();
+    }
+</script>   
+
+
+
